@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lessons</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="sticky">
+        <div class="container">
+            <h1>Lesson Archive</h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="lessons.html">Lessons</a></li>
+                </ul>
+                <button class="theme-toggle" id="theme-toggle">Toggle Dark Mode</button>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="container">
+            <h2>Lessons</h2>
+            <input type="text" id="search" placeholder="Search lessons..." class="search-input">
+            <div class="lesson-grid" id="lesson-list">
+                <div class="lesson-card">
+                    <a href="lessons/lesson1.html">
+                        <h3>Lesson 1: Introduction to HTML</h3>
+                        <p>Learn the basics of HTML.</p>
+                    </a>
+                </div>
+                <div class="lesson-card">
+                    <a href="lessons/lesson2.html">
+                        <h3>Lesson 2: Introduction to CSS</h3>
+                        <p>Learn the basics of CSS.</p>
+                    </a>
+                </div>
+                <div class="lesson-card">
+                    <a href="lessons/lesson3.html">
+                        <h3>Lesson 3: Introduction to JavaScript</h3>
+                        <p>Learn the basics of JavaScript.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Lesson Archive. All rights reserved.</p>
+    </footer>
+</body>
+</html>
